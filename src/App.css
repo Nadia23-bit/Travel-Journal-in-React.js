@@ -1,0 +1,45 @@
+*{
+  font-family: 'Ubuntu', sans-serif
+}
+.navbar{
+  background-color: rgb(243, 95, 95);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar svg{
+  margin: 5px;
+  height: 50px;
+  width: 40px;
+}
+.navbar p{
+  font-size: 120%;
+}
+.card{
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  
+
+}
+.card-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-img{
+  height: 200px;
+  width: 150px;
+  border-radius: 5%;
+  margin-right: 2%;
+}
+.card svg{
+  color: red;
+}
+.card a{
+  color: rgb(148, 146, 146);
+}
